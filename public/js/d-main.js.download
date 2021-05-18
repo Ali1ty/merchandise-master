@@ -1,0 +1,16 @@
+// change border of input and textarea
+const input = document.querySelectorAll('input');
+const textarea = document.querySelectorAll('textarea');
+input.forEach(element => {
+    element.addEventListener('focus', function () {
+        element.style.border = '1.5px solid #FF039A';
+        element.style.boxShadow = 'none';
+    })
+});
+
+textarea.forEach(element => {
+    element.addEventListener('focus', function () {
+        element.style.border = '1.5px solid #FF039A';
+        element.style.boxShadow = 'none';
+    })
+})

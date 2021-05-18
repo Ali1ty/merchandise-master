@@ -1,0 +1,5 @@
+
+{!! Menu::display('farno', 'mymenu'); !!}
+
+
+
